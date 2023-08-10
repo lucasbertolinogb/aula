@@ -1,0 +1,10 @@
+public class Seguro{
+  private float valor;
+  private boolean vigencia;
+
+  // ligação 1 para 1 de entre veiculo e seguro
+  private Veiculo veiculo;
+  // ligação 1 para 1 de entre cliente e seguro
+  private Cliente proprietario;
+  private Cliente [] assegurados;
+}
